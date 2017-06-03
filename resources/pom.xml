@@ -94,7 +94,7 @@
                 <configuration>
                     <filesets>
                         <fileset>
-                            <directory>dist</directory>
+                            <directory>../dist</directory>
                         </fileset>
                     </filesets>
                 </configuration>
