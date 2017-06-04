@@ -25,7 +25,7 @@ public class GroupController
     private final EntityRepository<Group> groupRepository;
 
     @Inject
-    GroupController(EntityRepository<Group> groupRepository)
+    public GroupController(EntityRepository<Group> groupRepository)
     {
         this.groupRepository = groupRepository;
     }

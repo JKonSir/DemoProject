@@ -16,6 +16,7 @@
         <module>DemoProject-controller</module>
         <module>dependencies</module>
         <module>resources</module>
+        <module>DemoProject-it</module>
     </modules>
 
     <properties>

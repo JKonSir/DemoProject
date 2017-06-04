@@ -24,7 +24,7 @@ public class StudentController
     private final EntityRepository<Student> studentRepository;
 
     @Inject
-    StudentController(EntityRepository<Student> studentRepository)
+    public StudentController(EntityRepository<Student> studentRepository)
     {
         this.studentRepository = studentRepository;
     }
